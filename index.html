@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Roboto+Condensed:wght@300;400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="container">
-      <h1 class="logo">suite</h1>
+      <img src="images/logo.svg" alt="Logo - suite" class="logo" />
       <button class="btn btn--outline">Request Beta Access</button>
     </header>
     <main class="hero grid container">
@@ -33,12 +33,24 @@
         </article>
         <button class="btn btn--colored">Request Beta Access</button>
       </div>
+
       <div class="hero__image">
-        <img
-          src="images/mobile-pic.jpg"
-          alt="An image of a mobile phone"
-          class="phone-img"
-        />
+        <img src="images/pattern-curved-line-1.svg" alt="" class="arc-one" />
+        <picture>
+          <source
+            srcset="images/image-hero-landscape.png"
+            media="(max-width: 720px)"
+          />
+          <source
+            srcset="images/image-hero-portrait.png"
+            media="(min-width: 720px)"
+          />
+          <img
+            class="phone-img"
+            src="images/image-hero-landscape.png"
+            alt="An image of mobile."
+          />
+        </picture>
       </div>
 
       <div class="hero__features">

@@ -15,18 +15,106 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main>
+    <header class="container">
+      <img src="images/logo.svg" alt="suite logo" class="logo" />
+      <button class="btn btn--outline">Request Beta Access</button>
+    </header>
+    <main class="container">
       <section class="hero">
-        <div class="hero__content">1</div>
-        <div class="hero__content">2</div>
-        <div class="hero__content" id="special">3</div>
-      </section>
-      <section class="review">
-        <div class="review__content"></div>
-        <div class="review__content"></div>
+        <div class="hero__content">
+          <article class="content">
+            <img
+              src="images/pattern-curved-line-1.svg"
+              alt=""
+              class="content__arc"
+            />
+            <h2 class="content__heading">
+              A <span class="bold">super solution </span>for your
+              <span class="bold">business.</span>
+            </h2>
+            <p class="content__matter">
+              Our marketing and sales automations help you scale your outreach
+              to get more leads for your company.
+            </p>
+          </article>
+          <button class="btn btn--colored">Request Beta Access</button>
+        </div>
+        <div class="hero__content">
+          <picture>
+            <source
+              srcset="images/image-hero-landscape.png"
+              media="(max-width: 720px)"
+            />
+            <source
+              srcset="images/image-hero-portrait.png"
+              media="(min-width: 720px)"
+            />
+            <img
+              class="phone-img"
+              src="images/image-hero-landscape.png"
+              alt="An image of mobile."
+            />
+          </picture>
+        </div>
+        <div class="hero__content" id="special">
+          <div class="features">
+            <div class="features__item">
+              <h1 class="features__heading">2K+</h1>
+              <p class="features__content">Companies</p>
+            </div>
+            <div class="features__item">
+              <h1 class="features__heading">8</h1>
+              <p class="features__content">Languages</p>
+            </div>
+            <div class="features__item">
+              <h1 class="features__heading">1.2M</h1>
+              <p class="features__content">Leads</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <section class="review">
+      <div class="review__content">
+        <img src="images/pattern-blur.svg" alt="" class="blur" />
+        <picture>
+          <source
+            srcset="images/image-jeremy-large.png"
+            media="(max-width: 720px)"
+          />
+          <source
+            srcset="images/image-jeremy-small.png"
+            media="(min-width: 720px)"
+          />
+          <img
+            class="jeremy-img"
+            src="images/image-jeremy-large.png"
+            alt="An image of mobile."
+          />
+        </picture>
+      </div>
+      <div class="review__content">
+        <article class="review__item">
+          <img
+            src="images/pattern-curved-line-2.svg"
+            alt=""
+            class="review__arc"
+          />
+          <h2 class="review__heading">
+            It just <span class="bold">works.</span>
+          </h2>
+          <p class="review__matter">
+            "I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker."
+          </p>
+          <div class="jeremy">
+            <h3 class="name">JEREMY ROBINSON</h3>
+            <p class="position">CMO, FYLO</p>
+          </div>
+        </article>
+      </div>
+    </section>
     <footer></footer>
   </body>
 </html>

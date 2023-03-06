@@ -81,6 +81,7 @@ header{
     /* border: 2px solid red; */
     align-items: center;
     padding:2rem;
+
 }
 
 @media screen and (min-width:720px){
@@ -95,9 +96,8 @@ header{
 @media screen and (min-width:1024px){
 
     header{
-
-        padding-left:8rem;
-        padding-right: 8rem;
+        padding-left: 24rem;
+        padding-right: 24rem;
     }
 
 }
@@ -290,6 +290,7 @@ header{
     .hero{
         flex-direction: row;
         flex-wrap: wrap;
+        padding:4rem;
     }
 
     .hero__item{
@@ -307,11 +308,17 @@ header{
         width:51%;
         min-width:344px;
         max-width: 380px;
+        left: 8rem;
     }
 
     .phone-img-container{
-        width:30%;
+        width:43%;
+        /* height: 10%; */
         
+    }
+
+    .phone-img{
+        height:90%;
     }
 }
 
@@ -444,6 +451,11 @@ header{
 @media screen and (min-width:720px)
 {
 
+.review{
+        position: relative;
+        top: 8rem;
+    }
+
 .review__matter{
     
     font-size: 1.8rem;
@@ -477,8 +489,10 @@ header{
         margin-right: 14rem;
         min-height:450px;
         /* max-height:450px ; */
-        min-width:1076px;
-        max-width:1076px;
+        /* min-width:1076px;
+        max-width:1076px; */
+        min-width: 935px;
+        max-width: 935px;
     }
     
     .review__content{
@@ -505,21 +519,22 @@ header{
     }
 
     .jeremy-img{
-        width:55%;
+        width: 62%;
         position: relative;
-        top:-3rem;
-        left:-18rem;
+        top: -21rem;
+        left: 6rem;
+    }
     }
 
     .blur{
-        top:-4rem;
-        left:20rem;
+        top: 25rem;
+        left: 5rem;
     }
 
     .review__arc{
         left:-8rem;
     }
-}
+
 
 .copyright{
     font-size:1.2rem;
@@ -551,7 +566,9 @@ footer{
     footer{
         flex-direction: row;
         justify-content: space-around;
-     
+        align-items: flex-end;
+        padding-bottom: 2rem;
+        height:300px;
         
     }
 }

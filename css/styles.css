@@ -107,20 +107,20 @@ header{
 /* Content */
 
 .content{
-    max-width:470px;
+    max-width:540px;
     
 }
 
 .content__arc{
     width:45%;
     position: relative;
-    left:20rem;
+    left:16rem;
     top:3rem;
 }
 
 .content__heading{
     font-weight:400;
-    font-size: 4.8rem;
+    font-size: 3.9rem;
     color: var(--color-primary);
 }
 
@@ -130,10 +130,10 @@ header{
 
 .content__matter{
   
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--color-accent);
     line-height: 1.7;
-    max-width:420px;
+    max-width:450px;
 
 }
 
@@ -308,7 +308,7 @@ header{
     }
 
     .phone-img-container{
-        width:45%;
+        width:30%;
         
     }
 }
@@ -463,12 +463,15 @@ header{
 
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1330px){
     .review{
         flex-direction: row;
         margin-left:14rem;
         margin-right: 14rem;
-        height:450px;
+        min-height:450px;
+        /* max-height:450px ; */
+        min-width:1076px;
+        max-width:1076px;
     }
     
     .review__content{
@@ -495,10 +498,10 @@ header{
     }
 
     .jeremy-img{
-        width:58%;
+        width:55%;
         position: relative;
-        top:-5.5rem;
-        left:-12rem;
+        top:-3rem;
+        left:-18rem;
     }
 
     .blur{
@@ -544,4 +547,16 @@ footer{
      
         
     }
+}
+
+@media screen and (min-width:1359px)
+{
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

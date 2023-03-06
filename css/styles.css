@@ -394,6 +394,7 @@ header{
     width:15%;
     position: relative;
     top:-8rem;
+    
 }
 
 .jeremy-img{
@@ -407,7 +408,7 @@ header{
     width: 40%;
     position: relative;
     top:-12rem;
-    left:14rem;
+    left:16rem;
 }
 
 .review__heading{
@@ -472,12 +473,15 @@ header{
 
 .blur{
     
-    left:18rem;
+    /* left:18rem; */
+
+
+
 }
 
 .review__arc{
 
-    top:-8rem;
+    /* top:-8rem; */
     width: 15%;
 }
 
@@ -528,8 +532,10 @@ header{
     }
 
     .blur{
-        top: 25rem;
-        left: 5rem;
+        /* top: 25rem;
+        left: 5rem; */
+        display: hidden;
+        opacity: 0;
     }
 
     .review__arc{

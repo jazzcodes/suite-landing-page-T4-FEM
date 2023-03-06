@@ -36,6 +36,8 @@ body{
     align-items: center;
     cursor: pointer;
     font-weight: 700;
+    margin-top:3rem;
+    margin-bottom:3rem;
 }
 
 .btn--outline{
@@ -272,7 +274,7 @@ header{
     /* border:2px solid red; */
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap:3rem;
     padding: 2rem;
 }
 
@@ -355,7 +357,7 @@ header{
 
 
 .review{
-    margin-top:20rem;
+    margin-top:16rem;
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
@@ -404,14 +406,14 @@ header{
 .review__heading{
     color:#fff;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .review__matter{
     color:var(--color-secondary);
-    font-size: 1.2rem;
+    font-size: 2rem;
     line-height: 1.5;
-    max-width: 220px;
+    max-width: 350px;
     
 
    
@@ -425,13 +427,18 @@ header{
 
 .name{
     color:#fff;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .position{
     color:var(--color-secondary);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top:-1rem;
+}
+
+.jeremy{
+    position: relative;
+    top:2rem;
 }
 
 @media screen and (min-width:720px)
@@ -525,12 +532,12 @@ header{
 
 .icons{
     display: flex;
-    gap:1.5rem;
+    gap:2rem;
 }
 
 footer{
     background-color: var(--color-footer);
-    margin-top:3rem;
+    /* margin-top:3rem; */
     display: flex;
     flex-direction: column;
     gap:3rem;

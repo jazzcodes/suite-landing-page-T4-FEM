@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suite Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,16 +12,19 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <title>Suite Landing Page</title>
   </head>
   <body>
-    <header class="container">
-      <img src="images/logo.svg" alt="suite logo" class="logo" />
-      <button class="btn btn--outline">Request Beta Access</button>
+    <header>
+      <div class="header__item">
+        <img src="images/logo.svg" alt="Suite Logo" />
+      </div>
+      <div class="header__item btn btn--outline">Request Beta Access</div>
     </header>
-    <main class="container">
-      <section class="hero">
-        <div class="hero__content">
-          <article class="content">
+    <main>
+      <div class="hero">
+        <div class="hero__item content">
+          <article>
             <img
               src="images/pattern-curved-line-1.svg"
               alt=""
@@ -39,7 +41,7 @@
           </article>
           <button class="btn btn--colored">Request Beta Access</button>
         </div>
-        <div class="hero__content">
+        <div class="hero__item phone-img-container">
           <picture>
             <source
               srcset="images/image-hero-landscape.png"
@@ -56,65 +58,65 @@
             />
           </picture>
         </div>
-        <div class="hero__content" id="special">
-          <div class="features">
-            <div class="features__item">
-              <h1 class="features__heading">2K+</h1>
-              <p class="features__content">Companies</p>
-            </div>
-            <div class="features__item">
-              <h1 class="features__heading">8</h1>
-              <p class="features__content">Languages</p>
-            </div>
-            <div class="features__item">
-              <h1 class="features__heading">1.2M</h1>
-              <p class="features__content">Leads</p>
-            </div>
+        <div class="hero__item features">
+          <div class="features__item">
+            <h1 class="features__heading">2K+</h1>
+            <p class="features__content">Companies</p>
+          </div>
+          <div class="features__item">
+            <h1 class="features__heading">8</h1>
+            <p class="features__content">Languages</p>
+          </div>
+          <div class="features__item">
+            <h1 class="features__heading">1.2M</h1>
+            <p class="features__content">Leads</p>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="review">
+        <div class="review__item jeremy-box">
+          <img src="images/pattern-blur.svg" alt="" class="blur" />
+          <picture>
+            <source
+              srcset="images/image-jeremy-large.png"
+              media="(max-width: 720px)"
+            />
+            <source
+              srcset="images/image-jeremy-small.png"
+              media="(min-width: 720px)"
+            />
+            <img
+              class="jeremy-img"
+              src="images/image-jeremy-large.png"
+              alt="An image of mobile."
+            />
+          </picture>
+        </div>
+        <div class="review__item">
+          <article class="review__content review__division">
+            <img
+              src="images/pattern-curved-line-2.svg"
+              alt=""
+              class="review__arc"
+            />
+            <div class="review__stuff">
+              <h2 class="review__heading">
+                It just <span class="bold">works.</span>
+              </h2>
+              <p class="review__matter">
+                "I really like how it is an all-in-one solution that handle many
+                of the tasks that you would normally need separate tools to do
+                the same job. This thing is a miracle worker."
+              </p>
+              <div class="jeremy">
+                <h3 class="name">JEREMY ROBINSON</h3>
+                <p class="position">CMO, FYLO</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </main>
-    <section class="review">
-      <div class="review__content pic">
-        <img src="images/pattern-blur.svg" alt="" class="blur" />
-        <picture>
-          <source
-            srcset="images/image-jeremy-large.png"
-            media="(max-width: 720px)"
-          />
-          <source
-            srcset="images/image-jeremy-small.png"
-            media="(min-width: 720px)"
-          />
-          <img
-            class="jeremy-img"
-            src="images/image-jeremy-large.png"
-            alt="An image of mobile."
-          />
-        </picture>
-      </div>
-      <div class="review__content info">
-        <article class="review__item">
-          <img
-            src="images/pattern-curved-line-2.svg"
-            alt=""
-            class="review__arc"
-          />
-          <h2 class="review__heading">
-            It just <span class="bold">works.</span>
-          </h2>
-          <p class="review__matter">
-            "I really like how it is an all-in-one solution that handle many of
-            the tasks that you would normally need separate tools to do the same
-            job. This thing is a miracle worker."
-          </p>
-          <div class="jeremy">
-            <h3 class="name">JEREMY ROBINSON</h3>
-            <p class="position">CMO, FYLO</p>
-          </div>
-        </article>
-      </div>
-    </section>
     <footer>
       <div>
         <img src="images/logo.svg" alt="suite logo" class="footer__logo" />

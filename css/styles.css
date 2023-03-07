@@ -70,7 +70,7 @@ body{
         height: 60px;
         font-size: 1.9rem;
         position: relative;
-        left:-5rem;
+        left:-8rem;
     
     }
 
@@ -213,7 +213,7 @@ header{
         white-space: nowrap;
         position: relative;
         z-index: 1;
-        left:-5rem;
+        left:-8rem;
         
     }
  
@@ -224,7 +224,7 @@ header{
         max-width:400px;
         font-size: 2rem;
         position: relative;
-        left:-5rem;
+        left:-8rem;
        
     
     }
@@ -286,6 +286,7 @@ header{
         
         flex-direction: column;
         text-align: left;
+        margin-left:5rem;
         
     }
     

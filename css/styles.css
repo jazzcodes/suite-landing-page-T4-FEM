@@ -561,8 +561,8 @@ header{
     .blur{
         /* top: 25rem;
         left: 5rem; */
-        display: hidden;
-        opacity: 0;
+        /* display: hidden;
+        opacity: 0; */
     }
 
     .review__arc{

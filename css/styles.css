@@ -501,6 +501,7 @@ header{
 .blur{
     
     /* left:18rem; */
+    /* transform:translate(-1rem,39rem); */
 
 
 
@@ -563,6 +564,7 @@ header{
         left: 5rem; */
         /* display: hidden;
         opacity: 0; */
+        /* transform:translate(-11rem,39rem); */
     }
 
     .review__arc{

@@ -84,7 +84,7 @@ header{
     /* border: 2px solid red; */
     align-items: center;
     /* padding:2rem; */
-    min-width:320px;
+    min-width:348px;
     max-width: 460px;
     width: 100%;
 
@@ -110,6 +110,18 @@ header{
         max-width: 1110px;
     }
 
+}
+
+@media screen and (max-width:369px){
+    header{
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width:295px){
+    header{
+        transform: scale(0.6);
+    }
 }
 
 .header__item{
@@ -471,6 +483,38 @@ header{
         width:100%;
     }
 }
+
+@media screen and (min-width:902px) and (max-width:1005px){
+
+    .phone-img-container{
+        /* width:45%; */
+        width: 52%;
+       
+        
+        
+    }
+
+    .phone-img{
+        width:113%;
+    }
+}
+
+@media screen and (max-width:369px){
+    .hero{
+        transform: scale(0.8);
+        margin-top: -10rem;
+        margin-bottom: -20rem;
+    }
+}
+
+@media screen and (max-width:295px){
+    .hero{
+        transform: scale(0.6);
+        margin-top: -22rem;
+        margin-bottom: -34rem;
+    }
+}
+
 .review{
     margin-top:16rem;
     display: flex;
@@ -676,6 +720,18 @@ header{
     }
 
 
+    @media screen and (max-width:369px){
+        .review{
+            transform: scale(0.8);
+        }
+    }
+
+    @media screen and (max-width:295px){
+        .review{
+            transform: scale(0.6);
+        }
+    }
+    
 .copyright{
     font-size:1.2rem;
 }

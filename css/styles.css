@@ -389,7 +389,7 @@ header{
 
 @media screen and (min-width:721px) and (max-width:760px){
     .phone-img-container{
-        width:43%;
+        width:46%;
     }
 
     .hero{
@@ -458,11 +458,28 @@ header{
 }
 
 
-/* @media screen and (min-width:1013px){
+@media screen and (min-width:826px){
     .phone-img-container{
-        width:60%;
+        width:49%;
     }
-} */
+    .phone-img{
+        height:98%;
+        width:100%;
+    }
+}
+
+@media screen and (min-width:832px) and (max-width:1023px){
+    .phone-img-container{
+        width:49%;
+
+    }
+    .phone-img{
+        max-height:85%;
+        width:100%;
+    } 
+}
+
+
 
 @media screen and (min-width:1024px){
     .hero{
@@ -508,14 +525,14 @@ header{
 
     .phone-img-container{
         /* width:45%; */
-        width: 52%;
+        /* width: 52%; */
        
         
         
     }
 
     .phone-img{
-        width:100%;
+        /* width:100%; */
     }
 }
 
@@ -523,15 +540,15 @@ header{
 
     .phone-img-container{
         /* width:45%; */
-        width: 48%;
+        /* width: 48%; */
        
         
         
     }
 
     .phone-img{
-        width:120%;
-        height: 70%;
+        /* width:120%;
+        height: 70%; */
     }
 }
 

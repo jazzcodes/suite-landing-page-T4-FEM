@@ -519,18 +519,19 @@ header{
     }
 }
 
-@media screen and (min-width:902px) and (max-width:1005px){
+@media screen and (min-width:826px) and (max-width:1021px){
 
     .phone-img-container{
         /* width:45%; */
-        width: 52%;
+        width: 48%;
        
         
         
     }
 
     .phone-img{
-        width:113%;
+        width:120%;
+        height: 70%;
     }
 }
 
